@@ -21,8 +21,10 @@ namespace OmchantingAndIOS
         public MainPage()
         {
             InitializeComponent();
-            
-            microphone.CheckStatusAsync();
+
+            //microphone = new Microphone();
+            //microphone.CheckStatusAsync();
+
             recorder = new AudioRecorderService
             {
                 StopRecordingAfterTimeout = true,
